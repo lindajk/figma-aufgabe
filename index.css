@@ -2,8 +2,25 @@
 @import "./home_header.css";
 
 body {
-  background-color: var(--second-color);
   font-family: ‘Space Grotesk’, sans-serif;
 }
+header {
+  border: 2px solid red;
+}
+.input-text {
+  display: inline;
+  position: relative;
+}
+input {
+  width: 90%;
+}
 
-.
+.header-icon {
+  position: absolute;
+  right: 5rem;
+}
+.scroll-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
