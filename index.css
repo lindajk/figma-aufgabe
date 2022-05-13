@@ -1,0 +1,6 @@
+@import "./global.css";
+
+body {
+  background-color: var(--first-color);
+  font-family: ‘Space Grotesk’, sans-serif;
+}
