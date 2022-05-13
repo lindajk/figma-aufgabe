@@ -4,8 +4,8 @@
 
 :root {
   --first-color: #ecebed;
-  --second-color: #323436; /*darkgrey*/
-  --third-color: #181a1c; /*darkblack*/
+  --second-color: #323436; /*darkgrey --> body*/
+  --third-color: #181a1c; /*darkblack --> navigation*/
   --fourth-color: #f62e8e;
   --fifth-color: #2e8af6;
   --font-family: ‘Space Grotesk’, sans-serif;

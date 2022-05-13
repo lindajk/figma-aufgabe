@@ -1,6 +1,7 @@
 @import "./global.css";
+@import "./home_header.css";
 
 body {
-  background-color: var(--first-color);
+  background-color: var(--second-color);
   font-family: ‘Space Grotesk’, sans-serif;
 }

@@ -1,0 +1,16 @@
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--first-color);
+}
+
+.home__post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li::before {
+  position: sticky;
+}
