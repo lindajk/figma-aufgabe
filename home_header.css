@@ -9,6 +9,13 @@ h1 {
   margin: 24px;
 }
 
+.home__headericon {
+  height: 20px;
+  width: 20px;
+  fill: var(--first-color);
+  margin-right: 24px;
+}
+
 .home__post {
   margin: 24px;
 }
@@ -26,17 +33,17 @@ h1 {
   gap: 12px;
 }
 
-.home__img {
-  border-radius: 16px;
-  height: 140px;
-  width: 100px;
-}
-
 .home__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+}
+
+.home__img {
+  border-radius: 16px;
+  height: 140px;
+  width: 100px;
 }
 
 .home__profileimg {
