@@ -1,5 +1,6 @@
 @import "./global.css";
 @import "./home_header.css";
+@import "./home_footer.css";
 
 body {
   background-color: var(--second-color);

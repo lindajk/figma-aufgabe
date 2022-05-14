@@ -5,12 +5,54 @@
   color: var(--first-color);
 }
 
+h1 {
+  margin: 24px;
+}
+
+.home__post {
+  margin: 24px;
+}
+
+.home__profile {
+  margin: 58px;
+}
+
 .home__post {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  gap: 12px;
+  list-style: none;
+  overflow: auto; /*horizontal scroll bar*/
 }
 
-li::before {
-  position: sticky;
+.home__img {
+  border-radius: 16px;
+  height: 140px;
+  width: 100px;
+}
+
+.home__profile {
+  margin-top: -75px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  list-style: none;
+  overflow: auto; /*horizontal scroll bar*/
+}
+
+.home__profileimg {
+  /*position: absolute;*/
+  top: 15px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 100px;
+  height: 32px;
+  width: 32px;
+  z-index: 100;
 }
