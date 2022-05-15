@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+}
+
+main {
+  overflow-y: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,118 @@
+.profile__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.profile__backimg {
+  width: 100vw;
+  height: 160px;
+}
+
+.profile__profileimg {
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  border: solid 3px;
+  position: absolute;
+  bottom: -70px;
+}
+
+.profile__alarm {
+  position: absolute;
+  top: 60px;
+  right: 24px;
+  width: 20px;
+  height: 20px;
+  fill: var(--first-color);
+}
+
+.profile__bookmark {
+  position: absolute;
+  top: 118px;
+  right: 24px;
+  width: 20px;
+  height: 20px;
+  fill: var(--first-color);
+}
+
+.profile__header {
+  position: relative;
+}
+
+.profile__userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.profile__follower {
+  margin: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__username {
+  color: var(--first-color);
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.profile__usercity {
+  color: var(--sixth-color);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.profile__userintro {
+  color: var(--first-color);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.profile__number {
+  color: var(--first-color);
+}
+
+.profile__following {
+  color: var(--sixth-color);
+}
+
+.profile__button {
+  background-color: var(--second-color);
+  color: var(--first-color);
+  border: solid 1px;
+  border-radius: 20px;
+  border-color: var(--sixth-color);
+  text-decoration: none;
+  padding: 12px;
+  width: 8rem;
+  text-align: center;
+  line-height: 1px;
+}
+
+.profile__nav {
+  display: flex;
+  list-style: none;
+  margin: 24px;
+  justify-content: space-between;
+  border-bottom: 0.12rem solid var(--sixth-color);
+  padding-bottom: 10px;
+}
+
+.profile__navelement {
+  text-decoration: none;
+  color: var(--first-color);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.profile__navselected {
+  text-decoration: underline;
+  text-decoration-color: var(--fifth-color);
+  text-underline-offset: 0.8em;
+  text-decoration-thickness: 5px;
+}
