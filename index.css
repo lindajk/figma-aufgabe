@@ -1,5 +1,8 @@
 @import "./global.css";
 @import "./home_header.css";
+@import "./home_footer.css";
+@import "./home_main.css";
+@import "./profile_header.css";
 
 body {
   background-color: var(--second-color);
