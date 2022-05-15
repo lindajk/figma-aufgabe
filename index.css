@@ -1,5 +1,6 @@
 @import "./global.css";
 @import "./home_header.css";
+@import "./alert.css";
 
 body {
   font-family: ‘Space Grotesk’, sans-serif;
@@ -32,6 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: fit-content;
 }
 
 .scroll-bar-tag {
@@ -45,6 +47,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 1.6rem;
+  overflow-x: scroll;
 }
 
 .profile {
@@ -78,6 +81,7 @@ body {
   height: 20rem;
   left: 4rem;
   position: relative;
+  box-shadow: 1px 1px 1px silver;
 }
 .scroll-points {
   display: flex;
