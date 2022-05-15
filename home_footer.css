@@ -1,0 +1,30 @@
+nav {
+  background-color: var(--third-color);
+  height: 88px;
+}
+
+.nav__home,
+.nav__add {
+  fill: var(--first-color);
+  height: 24px;
+  width: 24px;
+}
+
+.nav__search,
+.nav__alert,
+.nav__profile {
+  fill: var(--sixth-color);
+  height: 24px;
+  width: 24px;
+}
+
+.nav__add {
+  background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  border-radius: 32px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

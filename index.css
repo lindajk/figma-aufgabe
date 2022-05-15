@@ -1,6 +1,10 @@
 @import "./global.css";
 @import "./home_header.css";
+@import "./home_footer.css";
+@import "./home_main.css";
+@import "./profile_header.css";
 @import "./alert.css";
+@import "./search.css";
 
 body {
   font-family: ‘Space Grotesk’, sans-serif;

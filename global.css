@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -8,5 +10,7 @@
   --third-color: #181a1c; /*darkblack --> navigation*/
   --fourth-color: #f62e8e;
   --fifth-color: #2e8af6;
+  --sixth-color: #727477; /*nav button*/
+
   --font-family: ‘Space Grotesk’, sans-serif;
 }
